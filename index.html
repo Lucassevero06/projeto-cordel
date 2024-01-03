@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Cordel Moderno</title>
     <style>
+        body {
+            margin-top: 0px;
+        }
         header {
-            background-color: black;
+            background-color:black;
             color: white;
+            font-weight: bold;
+            padding: 30px;
             text-align: center;
+            border-radius: 10px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            padding: 5px;
+            background-color: rgb(44, 43, 43);
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        section {
+            font-family:cursive;
+            font-size: large;
+            text-align: center;
+            margin: auto;
+            background-color: white;
             padding: 20px;
-            border-radius: 15px;
+        }
+        section#t1 {
+            background-image: url(imagens/background001.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-color: rgba(255, 255, 255, 0);
+            color: white;
+        }
+        section#t2 {
+            background-image: url(imagens/background002.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        footer {
+            border-radius: 10px;
+            padding: 5px;
+            color: white;
+            background-color: black;
+            text-align: center;
         }
     </style>
 </head>
@@ -21,7 +63,7 @@
             Cordel Moderno
         </h1>
         <p>
-            Por Milton Duarte
+            Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a>
         </p>
     </header>
     <main>
@@ -36,6 +78,42 @@
                 <p>Vou dizer tudo em poesia.</p>
             </article>
         </section>
+        <section id="t1">
+            <article>
+                    <p>Não é mais como era antes</p>
+                    <p>É tudo abreviado</p>
+                    <p>"Você" só tem duas letras</p>
+                    <p>O "O" e o "E" foi riscado</p>
+                    <p>Para declarar o amor</p>
+                    <p>Basta botar uma flor</p>
+                    <p>E um coração desenhado.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <p>Arroba agora não pesa</p>
+                <p>É parte de um endereço</p>
+                <p>Ponto final nem se usa</p>
+                <p>Ou vai até no começo</p>
+                <p>Agora é .com</p>
+                <p>Se o saite é muito bom</p>
+                <p>Ele vale um alto preço.</p>
+            </article>
+        </section>
+        <section id="t2">
+            <article>
+                    <p>Pra piorar a liguagem</p>
+                    <p>O emoticom é um risco</p>
+                    <p>Tem símbolo para tudo</p>
+                    <p>Ponto e vírgula e um asterisco</p>
+                    <p>Um beijo significa</p>
+                    <p>Pra entender como fica</p>
+                    <p>Decifre esse rabisco.</p>
+            </article>
+        </section> 
+        <footer>
+            <p>Site crido por <a href="https://www.instagram.com/lucasgabrieldev/" target="_blank">Lucas Severo</a></p>
+        </footer>
     </main>
 </body>
 </html>
